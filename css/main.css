@@ -261,3 +261,37 @@ textarea {
   }
 }
 
+
+.preamble p {
+  display: none;
+  display: inline;
+  display: inline-block;
+  display: block;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.nik-demo-row {
+  display: flex;
+  gap: 20px;
+  border: 3px dotted red;
+}
+
+.ash-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #666;
+}
+
+.ash-header-logo {
+  max-width: 200px;
+}
+
+.ash-header-nav {
+  display: flex;
+  gap: 20px;
+}
