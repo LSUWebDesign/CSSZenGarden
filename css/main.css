@@ -295,3 +295,27 @@ img {
   display: flex;
   gap: 20px;
 }
+
+.dani-demo-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dani-demo-logo {
+  max-width: 125px;
+}
+
+.dani-demo-nav a {
+  padding: 8px;
+}
+
+.dani-demo-nav a:not(:last-child) {
+  border-right: 1px solid red;
+}
+
+.joseph-image-demo {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
