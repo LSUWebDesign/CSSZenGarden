@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  scroll-behavior: smooth;
   margin-bottom: 500px;
 }
 
@@ -282,9 +283,12 @@ img {
 }
 
 .ash-header {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
   border: 1px solid #666;
 }
 
@@ -344,6 +348,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 16px;
+  padding: 20px;
 }
 
 .jade-section-background {
@@ -360,4 +365,8 @@ img {
 
 .jade-section-image {
   width: 50%;
+}
+
+.light-gray-bg {
+  background-color: #efefef;
 }

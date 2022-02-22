@@ -25,7 +25,7 @@
 <body id="css-zen-garden">
   <div class="page-wrapper">
 
-    <section class="intro" id="zen-intro">
+    <section class="intro light-gray-bg" id="zen-intro">
       <header role="banner">
         <h1>CSS Zen Garden</h1>
         <h2>The Beauty of <abbr title="Cascading Style Sheets">CSS</abbr> Design</h2>
@@ -43,6 +43,15 @@
         <p>The CSS Zen Garden invites you to relax and meditate on the important lessons of the masters. Begin to see with clarity. Learn to use the time-honored techniques in new and invigorating fashion. Become one with the web.</p>
       </div>
     </section>
+
+    <header class="ash-header">
+      <img class="ash-header-logo" src="https://ultrapet.com/wp-content/uploads/2015/12/logo-chewy.png" alt="">
+      <nav class="ash-header-nav">
+        <a href="#home-section">Home</a>
+        <a href="#about-section">About</a>
+        <a href="#contact-section">Contact</a>
+      </nav>
+    </header>
 
     <div class="main supporting" id="zen-supporting" role="main">
       <div class="explanation" id="zen-explanation" role="article">
@@ -81,7 +90,6 @@
       </footer>
 
     </div>
-
 
     <aside class="sidebar" role="complementary">
       <div class="wrapper">
@@ -202,16 +210,7 @@
   </div>
 
 
-  <header class="ash-header">
-    <img class="ash-header-logo" src="https://ultrapet.com/wp-content/uploads/2015/12/logo-chewy.png" alt="">
-    <nav class="ash-header-nav">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
-
-  <header class="dani-demo-header">
+  <header id="home" class="dani-demo-header">
     <a href="https://google.com" target="_blank">
       <img class="dani-demo-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Electronic-Arts-Logo.svg/2048px-Electronic-Arts-Logo.svg.png" alt="">
     </a>
@@ -223,7 +222,7 @@
       <a href="#">Tickets</a>
     </nav>
   </header>
-  <div class="jade-section">
+  <div id="about-section" class="jade-section">
     <div class="jade-section-background">
       <div class="jade-section-description">
         <h2>soduhfg</h2>
@@ -235,15 +234,18 @@
       </div>
     </div>
   </div>
-  <div>
+  <div id="contact-section">
     <h2>Button</h2>
-    <div class="qj-demo-row">
+    <div class="qj-demo-row light-gray-bg">
       <button class="button">click me</button>
       <button class="button">danger</button>
       <button class="button">save</button>
       <button class="button">cancel</button>
     </div>
   </div>
+  <footer>
+    &copy; 2022
+  </footer>
 </body>
 
 </html>
