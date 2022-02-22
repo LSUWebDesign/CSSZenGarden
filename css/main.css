@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  margin-bottom: 500px;
 }
 
 /*
@@ -318,4 +319,45 @@ img {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+.button {
+  border-radius: 50px;
+  color: white;
+  background-color: blue;
+  border: 0;
+  font-size: 18px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: darkblue;
+}
+
+.button:focus {
+  outline: 3px solid darkblue;
+}
+
+.qj-demo-row {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.jade-section-background {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.jade-section-description {
+ width: 50%;
+}
+
+.jade-section-image {
+  width: 50%;
 }
